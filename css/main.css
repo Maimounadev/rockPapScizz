@@ -1,0 +1,114 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.scoreboard {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #eee;
+  font-weight: normal;
+}
+
+#humanScore, #computerScore {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+#status {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+}
+
+button {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:active {
+  background-color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Specific button styles */
+#rock {
+  background-color: #c82333;
+}
+
+#paper {
+  background-color: #007bff;
+}
+
+#scissors {
+  background-color: #28a745;
+}
+
+/* Color styles */
+h1 {
+  color: #c82333;
+}
+
+#humanScore {
+  color: #007bff;
+}
+
+#computerScore {
+  color: #28a745;
+}
