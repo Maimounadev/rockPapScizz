@@ -6,11 +6,13 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-  line-height: 1.5;
+  background-image: url('https://i.giphy.com/media/dsKALVnvGKgn4bLu2a/giphy.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+
 
 .container {
   max-width: 800px;
